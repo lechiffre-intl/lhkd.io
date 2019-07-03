@@ -1,0 +1,12 @@
+html, body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+html [id=__next], body [id=__next] {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=force-fullsize.css.map */

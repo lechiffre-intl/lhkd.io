@@ -1,0 +1,6 @@
+.IndividualForm{
+  @include pageBg('/static/imgs/Mobile_Fill%20in%20Details_03.png');
+
+  @import "./button-cta.scss";
+  @import "./use-form.scss";
+}

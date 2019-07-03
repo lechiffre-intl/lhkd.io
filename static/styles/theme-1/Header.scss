@@ -1,0 +1,86 @@
+.Header{
+  z-index: 2;
+
+  padding: 19px 0;
+  background-image: $menu-background;
+
+  @import "./horizontal-menu.scss";
+
+  .brand {
+    a{
+      display: inline-block;
+    }
+  }
+
+  .horizontal-menu{
+    > a{
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+
+  @import "./lang-menu.scss";
+}
+
+@include media-breakpoint-up(md) {
+  .Header{
+    .brand {
+      img{
+        max-height: 32px;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .Header {
+    padding-bottom: 0px;
+
+    .brand {
+      margin-right: 40px;
+
+      img {
+        max-height: 51px;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(xs) {
+  .Header{
+    .horizontal-menu{
+      margin-top: 34px;
+    }
+
+    .brand {
+      a{
+        img{
+          width: auto;
+          max-height: 24px;
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .Header{
+    position: fixed;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .Header {
+    & + div {
+      margin-top: 70px; // space to push content to go after the Header
+    }
+  }
+}
+
+@include media-breakpoint-down(xs) {
+  .Header {
+    & + div {
+      margin-top: 70px; // space to push content to go after the Header
+    }
+  }
+}

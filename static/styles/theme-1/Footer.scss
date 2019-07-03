@@ -1,0 +1,159 @@
+.Footer{
+  background-image: linear-gradient(to bottom, #090946, #06062a);
+
+  @import "./lang-menu.scss";
+
+  h6{ margin: unset; } //reset default margin
+
+  .contact-info{
+    & > div{
+      margin-bottom: 50px;
+
+      h6, p{
+        text-align: center;
+      }
+
+
+      h6{
+        font-size: 20px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.6;
+        letter-spacing: 6.6px;
+      }
+
+      p{
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+      }
+    }
+  }
+
+  .section-newsletter{
+    transform-origin: top left;
+    transition: transform 1s;
+    transform: translateX(200%);
+
+    display: none;
+
+    padding: 30px;
+
+    @import "./button-cta.scss";
+
+    h3{
+      font-size: 30px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 2;
+      letter-spacing: 5.6px;
+      text-align: center;
+    }
+
+    p{
+      font-size: 15px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.4;
+      letter-spacing: normal;
+      text-align: center;
+    }
+
+    .button-no-thankyou{
+      font-size: 10px;
+      text-decoration: underline;
+      color: $dark;
+      line-height: 2.1;
+    }
+  }
+
+  .section-newsletter.active{
+    transform: translateX(0%);
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .Footer {
+    @import "./horizontal-menu.scss";
+
+    .horizontal-menu{
+      & > div{
+        line-height: 3.4;
+        font-weight: bold;
+      }
+    }
+
+    .contact-info{
+      & > div{
+        margin-bottom: unset;
+
+        h6, p{
+          text-align: unset;
+        }
+
+        width: 33%;
+
+        &:first-child{
+          order: 2;
+        }
+        &:nth-child(2) {
+        }
+        &:nth-child(3) {
+          order: 4;
+        }
+        &:last-child{
+          order: 3;
+        }
+
+        h6{
+          font-size: 15px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 2.13;
+          letter-spacing: 5px;
+        }
+
+        p{
+          font-size: 15px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.4;
+          letter-spacing: normal;
+        }
+      }
+    }
+
+    .section-newsletter {
+      display: unset;
+      width: 400px;
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .Footer{
+    .horizontal-menu{ display: none !important; }
+
+    .contact-info{
+      & > div{
+        &:first-child{
+          order: 1;
+        }
+        &:nth-child(2){
+          order: 3;
+        }
+        &:nth-child(3){
+          order: 2;
+        }
+      }
+    }
+  }
+}

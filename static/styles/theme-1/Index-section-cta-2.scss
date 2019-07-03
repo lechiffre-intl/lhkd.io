@@ -1,0 +1,149 @@
+.section-cta-2{
+  padding: 40px 0;
+  margin-bottom: 143px;
+
+  .container{
+    & > div{
+      &:first-child{
+        order: 2;
+
+        margin-bottom: 26px;
+
+        img{
+          border-radius: 50em;
+          overflow: hidden;
+          width: 200px;
+          max-width: 300px;
+
+          @include marginCenter();
+        }
+      }
+
+      &:nth-child(2) {
+        order: 1;
+      }
+
+      &:last-child{
+        order: 3;
+      }
+    }
+
+    h4{
+      font-size: 23px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.52;
+      letter-spacing: 3.1px;
+
+      color: $gold;
+
+      margin-bottom: 21px;
+    }
+
+    p{
+
+      font-size: 15px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.73;
+      letter-spacing: normal;
+
+      margin-bottom: 60px;
+      color: #fff;
+    }
+
+    h4, p{
+      text-align: center;
+    }
+
+    @import "./button-cta.scss";
+  }
+}
+
+@include media-breakpoint-up(lg){
+  .section-cta-2{
+    .container{
+      .button-cta{
+        //width: 162px;
+      }
+
+      & > div{
+        order: unset;
+
+        &:first-child{
+          width: 40%;
+          margin-bottom: -230px;
+
+          img{
+            width: unset;
+            margin-top: -60px;
+            margin-left: unset;
+            margin-right: unset;
+            margin-bottom: unset;
+          }
+        }
+
+        &:nth-child(2){
+          align-self: flex-end;
+        }
+
+        &:nth-child(2),
+        &:last-child{
+          padding: unset;
+
+          margin-left: 40%;
+        }
+
+        h4{
+          font-size: 40px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.28;
+          letter-spacing: 5.4px;
+
+          color: $gold;
+
+          margin-bottom: 21px;
+        }
+
+        p{
+
+          font-size: 20px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.6;
+          letter-spacing: normal;
+
+          margin-bottom: 60px;
+          color: #fff;
+        }
+
+        h4, p{
+          text-align: unset;
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .section-cta-2 {
+    .container {
+      & > div {
+        &:nth-child(2) {
+          width: 280px;
+          align-self: center;
+        }
+        &:last-child {
+          width: 240px;
+          align-self: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

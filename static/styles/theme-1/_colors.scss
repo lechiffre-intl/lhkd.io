@@ -1,0 +1,51 @@
+.bg-gold{ background-color: $gold; }
+.border-gold{ border-color: $gold; }
+.border-white{ border-color: #fff; }
+.bg-black{ background-color: #000000; }
+.color-gold{ color: $gold; }
+.color-idle{ color: $idle; }
+.color-dim{ color: #939598; }
+.color-white{ color: #fff; }
+
+.color-gold{
+  &, &:visited, &:active{
+    color: $gold;
+  }
+}
+
+.color-white{
+  &, &:visited, &:active{
+    color: #fff;
+  }
+}
+
+.active-gold{
+  &:hover{
+    color: $gold;
+  }
+}
+
+.active-bg-gold{
+  &:hover,
+  &.active{
+    background-color: $gold;
+  }
+}
+
+.active-white{
+  &:hover{
+    color: #fff;
+  }
+}
+
+.active,
+.active-bg-gold:hover{
+  .color-gold{
+    color: $black;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .color-lg-gold { color: $gold !important; }
+  .active-lg-white:hover{ color: #fff !important; }
+}

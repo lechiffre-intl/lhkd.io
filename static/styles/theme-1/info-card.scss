@@ -1,0 +1,54 @@
+&.info-card-container{
+  .info-card{
+    cursor: pointer;
+
+    border: solid 2px $gold;
+    background-color: $dark-3;
+    padding: 22px 31px;
+
+    margin-bottom: 70px;
+
+    transition: background-color 0.5s;
+
+    h5{
+
+      font-size: 42px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.07;
+      letter-spacing: 5.6px;
+
+      color: $gold;
+    }
+
+    p{
+
+      font-size: 15px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.53;
+      letter-spacing: normal;
+
+      color: #fff;
+    }
+
+    &:hover{
+      background-color: $gold;
+
+      h5{
+        color: $dark;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(xs) {
+  &.info-card-container {
+    .info-card {
+      width: 274px;
+      align-self: center
+    }
+  }
+}

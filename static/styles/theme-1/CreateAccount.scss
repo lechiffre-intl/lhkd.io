@@ -1,0 +1,84 @@
+.CreateAccount{
+  &:not(.modal) {
+    @include pageBg('/static/imgs/Mobile_Create%20Account%20BG_01.png');
+  }
+
+  .modal-dialog{
+    width: 230px;
+  }
+
+  @import "./use-form.scss";
+  @import "./button-cta.scss";
+
+  .container{
+    .account-options {
+      & > div {
+        &:not(:hover):not(.active){
+          & > div {
+            // show gold
+            img:last-child { display: none; }
+          }
+        }
+
+        &.active:not(:hover),
+        &:hover{
+          & > div {
+            // show black
+            img:first-child { display: none; }
+          }
+        }
+
+        img{
+          border-radius: 100%;
+          overflow: hidden;
+
+          width: 72px;
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .CreateAccount{
+    .account-options{
+      &,
+      & + button{
+        width: 162px;
+      }
+
+      & > div{
+        img{
+        }
+
+        & > div:first-child{
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .CreateAccount{
+    .modal-dialog{
+      width: 416px;
+    }
+
+    .account-options{
+      & + button{
+        width: 162px;
+      }
+
+      & > div{
+        width: 162px;
+
+        img{
+        }
+
+        &:first-child{
+          margin-right: 91px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.info-media{
+
+  & > div{
+    border: 2px solid $gold;
+    padding: 20px;
+  }
+
+  img{
+    margin-bottom: 10px;
+    height: 86px;
+
+    @include forceFullWith();
+  }
+
+  p{
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    color: #ffffff;
+
+    margin-bottom: unset;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .info-media{
+    padding: 0 28px;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .info-media{
+    width: 280px;
+  }
+}
+
+@include media-breakpoint-down(xs) {
+  .info-media{
+    width: 238px;
+  }
+}

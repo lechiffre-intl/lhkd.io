@@ -1,0 +1,58 @@
+a.button-cta,
+button.button-cta,
+input[type="submit"].button-cta{
+  border-width: 3px;
+  border-style: solid;
+
+  &:not(.button-cta--secondary) {
+    border-color: $gold;
+
+    &, &:active, &:visited, &:hover{
+      color: $gold;
+    }
+  }
+
+  &.button-cta--secondary {
+    border-color: $dark-2;
+    color: $dark-2;
+
+    &:active, &:visited, &:hover{
+      border-color: $gold;
+      color: $gold;
+    }
+  }
+
+  padding: 10px 20px;
+  display: inline-block;
+
+
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.13;
+  letter-spacing: 2.9px;
+  text-align: center;
+
+  background-color: transparent;
+
+  &, &:active, &:visited, &:hover{
+    text-decoration: none;
+  }
+
+  &:hover{
+    background-color: #383838;
+  }
+
+  &.button-cta-invert{
+    border-color: $dark;
+
+    &, &:active, &:visited, &:hover{
+      color: $dark;
+    }
+
+    &:hover{
+      background-color: unset;
+    }
+  }
+}

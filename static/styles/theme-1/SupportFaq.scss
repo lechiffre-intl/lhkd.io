@@ -1,0 +1,65 @@
+.SupportFaq{
+  @include pageBg('/static/imgs/Mobile_Support%20Page%20FAQ.png');
+
+  h2{
+    font-size: 19px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.89;
+    letter-spacing: 5px;
+
+    border-bottom: 1px solid $gold;
+  }
+
+  h3{
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+  }
+
+  .group-content{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+
+    &:not(:last-child){
+      border-bottom: 1px solid #fff;
+    }
+
+    & > div:first-child{
+      &:not(.active){
+
+        & > div{
+          svg:last-child{
+            display: none;
+          }
+        }
+
+        & + div{
+          display: none;
+        }
+      }
+
+      &.active{
+        & > div{
+          svg:first-child{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .SupportFaq{
+    @include pageBg('/static/imgs/Support%20FAQ_BG.png');
+  }
+}

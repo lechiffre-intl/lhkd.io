@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "Centrale Sans";
+  src: local("Centrale Sans Thin Italic"), local("CentraleSansThinItalic"), url("hinted-CentraleSansThinItalic.woff2") format("woff2"), url("hinted-CentraleSansThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Centrale Sans";
+  src: local("CentraleSans-Thin"), url("hinted-CentraleSans-Thin.woff2") format("woff2"), url("hinted-CentraleSans-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Centrale Sans XLight";
+  src: local("Centrale Sans XLight"), local("CentraleSans-XLight"), url("hinted-CentraleSans-XLight.woff2") format("woff2"), url("hinted-CentraleSans-XLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Centrale Sans";
+  src: local("CentraleSans-Light"), url("hinted-CentraleSans-Light.woff2") format("woff2"), url("hinted-CentraleSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Centrale Sans";
+  src: local("Centrale Sans Medium"), local("CentraleSans-Medium"), url("hinted-CentraleSans-Medium.woff2") format("woff2"), url("hinted-CentraleSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Centrale Sans";
+  src: local("Centrale Sans Regular Italic"), local("CentraleSansRegularItalic"), url("hinted-CentraleSansRegularItalic.woff2") format("woff2"), url("hinted-CentraleSansRegularItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Centrale Sans";
+  src: local("Centrale Sans Bold"), local("CentraleSans-Bold"), url("hinted-CentraleSans-Bold.woff2") format("woff2"), url("hinted-CentraleSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Centrale Sans MediumMedium";
+  src: local("Centrale Sans Medium Italic"), local("CentraleSans-MediumItalic"), url("hinted-CentraleSans-MediumItalic.woff2") format("woff2"), url("hinted-CentraleSans-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Centrale Sans";
+  src: local("Centrale Sans Bold Italic"), local("CentraleSans-BoldItalic"), url("hinted-CentraleSans-BoldItalic.woff2") format("woff2"), url("hinted-CentraleSans-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Centrale Sans XThin";
+  src: local("Centrale Sans XThin"), local("CentraleSans-XThin"), url("hinted-CentraleSans-XThin.woff2") format("woff2"), url("hinted-CentraleSans-XThin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Centrale Sans XThin";
+  src: local("Centrale Sans XThin Italic"), local("CentraleSans-XThinItalic"), url("hinted-CentraleSans-XThinItalic.woff2") format("woff2"), url("hinted-CentraleSans-XThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Centrale Sans XLight";
+  src: local("Centrale Sans XLight Italic"), local("CentraleSans-XLightItalic"), url("hinted-CentraleSans-XLightItalic.woff2") format("woff2"), url("hinted-CentraleSans-XLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Centrale Sans";
+  src: local("Centrale Sans Regular"), local("CentraleSansRegular"), url("hinted-CentraleSansRegular.woff2") format("woff2"), url("hinted-CentraleSansRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Centrale Sans";
+  src: local("Centrale Sans Light Italic"), local("CentraleSansLightItalic"), url("hinted-CentraleSansLightItalic.woff2") format("woff2"), url("hinted-CentraleSansLightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+}
+
+/*# sourceMappingURL=stylesheet.css.map */

@@ -1,0 +1,10 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../node_modules/slick-carousel/slick/slick.scss';
+@import '../../node_modules/slick-carousel/slick/slick-theme.scss';
+@import './theme-1/fonts/CentraleSans/stylesheet.css';
+
+@import './theme-1/styles.scss';
+
+.no-event{
+    pointer-events: none;
+}

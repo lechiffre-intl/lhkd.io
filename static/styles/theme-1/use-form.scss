@@ -1,0 +1,169 @@
+.use-form{
+  .use-form--title{
+    font-size: 23px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.3;
+    letter-spacing: 8.3px;
+
+    margin: 59px auto 12px auto;
+
+    width: 283px;
+  }
+
+  .use-form--subtitle{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: 5.5px;
+  }
+
+  .use-form--separator{
+    width: 100px;
+    border-color: #fff;
+    @include marginCenter();
+  }
+
+  a.use-form--link{
+    display: block;
+    text-decoration: underline;
+
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: center;
+  }
+
+  .use-form--previous{
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.42;
+    letter-spacing: 1.6px;
+
+    color: #939598;
+  }
+
+
+  .use-form--error-message{
+    margin-bottom: 20px;
+
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: center;
+
+    width: 193px;
+  }
+
+  .use-form--instruction{
+    margin-top: 41px;
+    margin-bottom: 20px;
+
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: center;
+
+    width: 193px;
+  }
+
+  select,
+  input[type="text"],
+  input[type="email"],
+  input[type="password"]{
+    -webkit-appearance: none;
+    border-radius: 0;
+
+    width: 252px;
+
+    border-width: 2px;
+    border-style: solid;
+
+    font-size: 14px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 24px;
+    letter-spacing: normal;
+    color: #939598;
+
+    padding: 6px 20px;
+
+    margin-bottom: 18px;
+
+    &:-ms-input-placeholder,
+    &::-moz-placeholder,
+    &:-moz-placeholder,
+    &::-webkit-input-placeholder{
+      color: #939598;
+    }
+  }
+
+  input[type="submit"] {
+    width: 167px;
+    margin: 15px 0;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .use-form{
+    a.use-form--previous,
+    a.button-cta.use-form--previous,
+    button.use-form--previous,
+    input.use-form--previous{
+      border: none;
+      text-decoration: underline;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .use-form{
+    .use-form--title{
+      font-size: 50px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.2;
+      letter-spacing: 9.3px;
+
+      margin-bottom: 10px;
+      margin-top: 59px;
+
+      width: unset;
+    }
+
+    .use-form--instruction,
+    .use-form--error-message{
+      width: unset;
+    }
+
+    .row{
+      div[class*="col"]{
+        input{
+          width: 100%;
+        }
+      }
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 340px;
+    }
+  }
+}

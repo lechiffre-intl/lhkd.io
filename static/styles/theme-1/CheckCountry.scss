@@ -1,0 +1,6 @@
+.CheckCountry{
+  @include pageBg('/static/imgs/Mobile_Check%20Country_02.png');
+
+  @import "./button-cta.scss";
+  @import "./use-form.scss";
+}

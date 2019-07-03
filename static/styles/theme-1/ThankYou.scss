@@ -1,0 +1,15 @@
+.ThankYou{
+  @include pageBg('/static/imgs/Mobile_Thank%20You_04.png');
+
+  @import "./button-cta.scss";
+
+  .container{
+    & > div:last-child{
+      width: 231px;
+    }
+
+    .button-cta{
+      @include marginCenter();
+    }
+  }
+}
