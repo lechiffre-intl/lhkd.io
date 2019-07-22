@@ -10379,16 +10379,16 @@ h3 {
   line-height: 1.4;
   letter-spacing: normal;
 }
-.theme-1 .Footer .section-newsletter {
+.theme-1 .Popup .section-newsletter {
   transform-origin: top left;
   transition: transform 1s;
   transform: translateX(200%);
   display: none;
   padding: 30px;
 }
-.theme-1 .Footer .section-newsletter a.button-cta,
-.theme-1 .Footer .section-newsletter button.button-cta,
-.theme-1 .Footer .section-newsletter input[type=submit].button-cta {
+.theme-1 .Popup .section-newsletter a.button-cta,
+.theme-1 .Popup .section-newsletter button.button-cta,
+.theme-1 .Popup .section-newsletter input[type=submit].button-cta {
   border-width: 3px;
   border-style: solid;
   padding: 10px 20px;
@@ -10402,76 +10402,76 @@ h3 {
   text-align: center;
   background-color: transparent;
 }
-.theme-1 .Footer .section-newsletter a.button-cta:not(.button-cta--secondary),
-.theme-1 .Footer .section-newsletter button.button-cta:not(.button-cta--secondary),
-.theme-1 .Footer .section-newsletter input[type=submit].button-cta:not(.button-cta--secondary) {
+.theme-1 .Popup .section-newsletter a.button-cta:not(.button-cta--secondary),
+.theme-1 .Popup .section-newsletter button.button-cta:not(.button-cta--secondary),
+.theme-1 .Popup .section-newsletter input[type=submit].button-cta:not(.button-cta--secondary) {
   border-color: #deb408;
 }
-.theme-1 .Footer .section-newsletter a.button-cta:not(.button-cta--secondary), .theme-1 .Footer .section-newsletter a.button-cta:not(.button-cta--secondary):active, .theme-1 .Footer .section-newsletter a.button-cta:not(.button-cta--secondary):visited, .theme-1 .Footer .section-newsletter a.button-cta:not(.button-cta--secondary):hover,
-.theme-1 .Footer .section-newsletter button.button-cta:not(.button-cta--secondary),
-.theme-1 .Footer .section-newsletter button.button-cta:not(.button-cta--secondary):active,
-.theme-1 .Footer .section-newsletter button.button-cta:not(.button-cta--secondary):visited,
-.theme-1 .Footer .section-newsletter button.button-cta:not(.button-cta--secondary):hover,
-.theme-1 .Footer .section-newsletter input[type=submit].button-cta:not(.button-cta--secondary),
-.theme-1 .Footer .section-newsletter input[type=submit].button-cta:not(.button-cta--secondary):active,
-.theme-1 .Footer .section-newsletter input[type=submit].button-cta:not(.button-cta--secondary):visited,
-.theme-1 .Footer .section-newsletter input[type=submit].button-cta:not(.button-cta--secondary):hover {
+.theme-1 .Popup .section-newsletter a.button-cta:not(.button-cta--secondary), .theme-1 .Popup .section-newsletter a.button-cta:not(.button-cta--secondary):active, .theme-1 .Popup .section-newsletter a.button-cta:not(.button-cta--secondary):visited, .theme-1 .Popup .section-newsletter a.button-cta:not(.button-cta--secondary):hover,
+.theme-1 .Popup .section-newsletter button.button-cta:not(.button-cta--secondary),
+.theme-1 .Popup .section-newsletter button.button-cta:not(.button-cta--secondary):active,
+.theme-1 .Popup .section-newsletter button.button-cta:not(.button-cta--secondary):visited,
+.theme-1 .Popup .section-newsletter button.button-cta:not(.button-cta--secondary):hover,
+.theme-1 .Popup .section-newsletter input[type=submit].button-cta:not(.button-cta--secondary),
+.theme-1 .Popup .section-newsletter input[type=submit].button-cta:not(.button-cta--secondary):active,
+.theme-1 .Popup .section-newsletter input[type=submit].button-cta:not(.button-cta--secondary):visited,
+.theme-1 .Popup .section-newsletter input[type=submit].button-cta:not(.button-cta--secondary):hover {
   color: #deb408;
 }
-.theme-1 .Footer .section-newsletter a.button-cta.button-cta--secondary,
-.theme-1 .Footer .section-newsletter button.button-cta.button-cta--secondary,
-.theme-1 .Footer .section-newsletter input[type=submit].button-cta.button-cta--secondary {
+.theme-1 .Popup .section-newsletter a.button-cta.button-cta--secondary,
+.theme-1 .Popup .section-newsletter button.button-cta.button-cta--secondary,
+.theme-1 .Popup .section-newsletter input[type=submit].button-cta.button-cta--secondary {
   border-color: #424242;
   color: #424242;
 }
-.theme-1 .Footer .section-newsletter a.button-cta.button-cta--secondary:active, .theme-1 .Footer .section-newsletter a.button-cta.button-cta--secondary:visited, .theme-1 .Footer .section-newsletter a.button-cta.button-cta--secondary:hover,
-.theme-1 .Footer .section-newsletter button.button-cta.button-cta--secondary:active,
-.theme-1 .Footer .section-newsletter button.button-cta.button-cta--secondary:visited,
-.theme-1 .Footer .section-newsletter button.button-cta.button-cta--secondary:hover,
-.theme-1 .Footer .section-newsletter input[type=submit].button-cta.button-cta--secondary:active,
-.theme-1 .Footer .section-newsletter input[type=submit].button-cta.button-cta--secondary:visited,
-.theme-1 .Footer .section-newsletter input[type=submit].button-cta.button-cta--secondary:hover {
+.theme-1 .Popup .section-newsletter a.button-cta.button-cta--secondary:active, .theme-1 .Popup .section-newsletter a.button-cta.button-cta--secondary:visited, .theme-1 .Popup .section-newsletter a.button-cta.button-cta--secondary:hover,
+.theme-1 .Popup .section-newsletter button.button-cta.button-cta--secondary:active,
+.theme-1 .Popup .section-newsletter button.button-cta.button-cta--secondary:visited,
+.theme-1 .Popup .section-newsletter button.button-cta.button-cta--secondary:hover,
+.theme-1 .Popup .section-newsletter input[type=submit].button-cta.button-cta--secondary:active,
+.theme-1 .Popup .section-newsletter input[type=submit].button-cta.button-cta--secondary:visited,
+.theme-1 .Popup .section-newsletter input[type=submit].button-cta.button-cta--secondary:hover {
   border-color: #deb408;
   color: #deb408;
 }
-.theme-1 .Footer .section-newsletter a.button-cta, .theme-1 .Footer .section-newsletter a.button-cta:active, .theme-1 .Footer .section-newsletter a.button-cta:visited, .theme-1 .Footer .section-newsletter a.button-cta:hover,
-.theme-1 .Footer .section-newsletter button.button-cta,
-.theme-1 .Footer .section-newsletter button.button-cta:active,
-.theme-1 .Footer .section-newsletter button.button-cta:visited,
-.theme-1 .Footer .section-newsletter button.button-cta:hover,
-.theme-1 .Footer .section-newsletter input[type=submit].button-cta,
-.theme-1 .Footer .section-newsletter input[type=submit].button-cta:active,
-.theme-1 .Footer .section-newsletter input[type=submit].button-cta:visited,
-.theme-1 .Footer .section-newsletter input[type=submit].button-cta:hover {
+.theme-1 .Popup .section-newsletter a.button-cta, .theme-1 .Popup .section-newsletter a.button-cta:active, .theme-1 .Popup .section-newsletter a.button-cta:visited, .theme-1 .Popup .section-newsletter a.button-cta:hover,
+.theme-1 .Popup .section-newsletter button.button-cta,
+.theme-1 .Popup .section-newsletter button.button-cta:active,
+.theme-1 .Popup .section-newsletter button.button-cta:visited,
+.theme-1 .Popup .section-newsletter button.button-cta:hover,
+.theme-1 .Popup .section-newsletter input[type=submit].button-cta,
+.theme-1 .Popup .section-newsletter input[type=submit].button-cta:active,
+.theme-1 .Popup .section-newsletter input[type=submit].button-cta:visited,
+.theme-1 .Popup .section-newsletter input[type=submit].button-cta:hover {
   text-decoration: none;
 }
-.theme-1 .Footer .section-newsletter a.button-cta:hover,
-.theme-1 .Footer .section-newsletter button.button-cta:hover,
-.theme-1 .Footer .section-newsletter input[type=submit].button-cta:hover {
+.theme-1 .Popup .section-newsletter a.button-cta:hover,
+.theme-1 .Popup .section-newsletter button.button-cta:hover,
+.theme-1 .Popup .section-newsletter input[type=submit].button-cta:hover {
   background-color: #383838;
 }
-.theme-1 .Footer .section-newsletter a.button-cta.button-cta-invert,
-.theme-1 .Footer .section-newsletter button.button-cta.button-cta-invert,
-.theme-1 .Footer .section-newsletter input[type=submit].button-cta.button-cta-invert {
+.theme-1 .Popup .section-newsletter a.button-cta.button-cta-invert,
+.theme-1 .Popup .section-newsletter button.button-cta.button-cta-invert,
+.theme-1 .Popup .section-newsletter input[type=submit].button-cta.button-cta-invert {
   border-color: #383838;
 }
-.theme-1 .Footer .section-newsletter a.button-cta.button-cta-invert, .theme-1 .Footer .section-newsletter a.button-cta.button-cta-invert:active, .theme-1 .Footer .section-newsletter a.button-cta.button-cta-invert:visited, .theme-1 .Footer .section-newsletter a.button-cta.button-cta-invert:hover,
-.theme-1 .Footer .section-newsletter button.button-cta.button-cta-invert,
-.theme-1 .Footer .section-newsletter button.button-cta.button-cta-invert:active,
-.theme-1 .Footer .section-newsletter button.button-cta.button-cta-invert:visited,
-.theme-1 .Footer .section-newsletter button.button-cta.button-cta-invert:hover,
-.theme-1 .Footer .section-newsletter input[type=submit].button-cta.button-cta-invert,
-.theme-1 .Footer .section-newsletter input[type=submit].button-cta.button-cta-invert:active,
-.theme-1 .Footer .section-newsletter input[type=submit].button-cta.button-cta-invert:visited,
-.theme-1 .Footer .section-newsletter input[type=submit].button-cta.button-cta-invert:hover {
+.theme-1 .Popup .section-newsletter a.button-cta.button-cta-invert, .theme-1 .Popup .section-newsletter a.button-cta.button-cta-invert:active, .theme-1 .Popup .section-newsletter a.button-cta.button-cta-invert:visited, .theme-1 .Popup .section-newsletter a.button-cta.button-cta-invert:hover,
+.theme-1 .Popup .section-newsletter button.button-cta.button-cta-invert,
+.theme-1 .Popup .section-newsletter button.button-cta.button-cta-invert:active,
+.theme-1 .Popup .section-newsletter button.button-cta.button-cta-invert:visited,
+.theme-1 .Popup .section-newsletter button.button-cta.button-cta-invert:hover,
+.theme-1 .Popup .section-newsletter input[type=submit].button-cta.button-cta-invert,
+.theme-1 .Popup .section-newsletter input[type=submit].button-cta.button-cta-invert:active,
+.theme-1 .Popup .section-newsletter input[type=submit].button-cta.button-cta-invert:visited,
+.theme-1 .Popup .section-newsletter input[type=submit].button-cta.button-cta-invert:hover {
   color: #383838;
 }
-.theme-1 .Footer .section-newsletter a.button-cta.button-cta-invert:hover,
-.theme-1 .Footer .section-newsletter button.button-cta.button-cta-invert:hover,
-.theme-1 .Footer .section-newsletter input[type=submit].button-cta.button-cta-invert:hover {
+.theme-1 .Popup .section-newsletter a.button-cta.button-cta-invert:hover,
+.theme-1 .Popup .section-newsletter button.button-cta.button-cta-invert:hover,
+.theme-1 .Popup .section-newsletter input[type=submit].button-cta.button-cta-invert:hover {
   background-color: unset;
 }
-.theme-1 .Footer .section-newsletter h3 {
+.theme-1 .Popup .section-newsletter h3 {
   font-size: 30px;
   font-weight: bold;
   font-style: normal;
@@ -10480,7 +10480,7 @@ h3 {
   letter-spacing: 5.6px;
   text-align: center;
 }
-.theme-1 .Footer .section-newsletter p {
+.theme-1 .Popup .section-newsletter p {
   font-size: 15px;
   font-weight: normal;
   font-style: normal;
@@ -10489,13 +10489,13 @@ h3 {
   letter-spacing: normal;
   text-align: center;
 }
-.theme-1 .Footer .section-newsletter .button-no-thankyou {
+.theme-1 .Popup .section-newsletter .button-no-thankyou {
   font-size: 10px;
   text-decoration: underline;
   color: #383838;
   line-height: 2.1;
 }
-.theme-1 .Footer .section-newsletter.active {
+.theme-1 .Popup .section-newsletter.active {
   transform: translateX(0%);
 }
 @media (min-width: 992px) {
@@ -10590,9 +10590,9 @@ h3 {
   }
 }
 @media (min-width: 992px) {
-  .theme-1 .Footer .section-newsletter {
+  .theme-1 .Popup .section-newsletter {
     display: unset;
-    width: 400px;
+    width: 380px;
   }
 }
 @media (max-width: 991.98px) {
